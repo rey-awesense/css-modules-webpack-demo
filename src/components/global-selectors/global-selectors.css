@@ -1,0 +1,9 @@
+.root {
+  border: 2px dashed orange;
+}
+
+.root :global .text {
+  font-size: 24px;
+  color: orange;
+  padding: 0 10px;
+}

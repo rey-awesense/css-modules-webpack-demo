@@ -1,0 +1,9 @@
+.root {
+  border: 2px dashed blue;
+}
+
+.text {
+  font-size: 24px;
+  color: blue;
+  padding: 0 10px;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "css-modules-webpack-demo",
+  "version": "1.0.0",
+  "description": "CSS Modules Webpack demo",
+  "main": "./src/components/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/webpack/bin/webpack.js -w",
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot"
+  },
+  "author": "Reynaldo Tortoledo <rey@awesense.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "babel-core": "^6.6.4",
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.9.0",
+    "postcss-loader": "^0.8.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
+}
